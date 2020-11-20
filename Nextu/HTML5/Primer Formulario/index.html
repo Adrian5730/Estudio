@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Registro</legend>
+        <p>
+          <label for="nombre">Nombre*</label>
+          <input type="text" name="nombre" required/>
+        </p>
+        <p>
+          <label for="tipo">Tipo*</label>
+          <select name="tipo" multiple="true" required>
+            <option value="musico">Músico</option>
+            <option value="pintor">Pintor</option>
+            <option value="actor">Actor</option>
+          </select>
+        </p>
+        <p>
+          <label for="comentario">Comentario*</label><br />
+          <textarea name="comentario" cols="30" rows="10" required></textarea>
+        </p>
+
+        <P>
+           <h2>Disponobilidad</h2>
+           <input type="radio" name="disponibilidad" id="semana" />
+           <label for="semana">De lunes a viernes</label><br />
+           <input type="radio" name="disponibilidad" id="fin" />
+           <label for="fin">Fin de semana</label>
+        </P>
+
+        <p>
+            <input type="checkbox" required>
+            <label for="terminos">Terminos y condiciones*</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Continuar" />
+        </p>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
