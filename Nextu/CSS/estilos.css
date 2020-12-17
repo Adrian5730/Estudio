@@ -1,3 +1,8 @@
-#contendor{
-    transition: background 1s;
+#contenedor{
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+#contenedor:hover{
+    background-color: yellow;
 }

@@ -36,3 +36,30 @@ figure {
 figure img {
 	width: 420px;
 }
+
+figure#imagen1 img{
+	transition: border 0.5s;
+}
+
+figure#imagen1 img:hover{
+	border: 4px black solid;
+}
+
+
+figure#imagen2 img{
+	opacity: 0.1;
+	transition: opacity 1s;
+}
+
+
+figure#imagen2 img:hover{
+	opacity: 1;
+}
+
+figure#imagen3 img{
+	transition: width 0.5s;
+}
+
+figure#imagen3 img:hover{
+	width: 60%;
+}
